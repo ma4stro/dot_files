@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/luca'
+let g:netrw_dirhist_7='/home/luca/Scrivania/SDCC/SDCC-project/src/producer/gui_support'
+let g:netrw_dirhist_6='/home/luca/.vim'
+let g:netrw_dirhist_5='/home/luca/script_zsh'
+let g:netrw_dirhist_4='/home/luca/Scrivania/PMCSN'
+let g:netrw_dirhist_3='/home/luca/Scrivania/CNS-exercises/secret_sharing'
+let g:netrw_dirhist_2='/home/luca/Scrivania/CNS-exercises/bleichenbacher_oracle'
+let g:netrw_dirhist_1='/home/luca/Scrivania/CNS/esercizi/bleichenbacher_oracle'
+let g:netrw_dirhist_0='/home/luca/Scrivania/CNS/esercizi/global_variable'
+let g:netrw_dirhist_9='/home/luca/.tmux'

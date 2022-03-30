@@ -1,0 +1,11 @@
+:Searchlight	searchlight.txt	/*:Searchlight*
+<Plug>(Searchlight)	searchlight.txt	/*<Plug>(Searchlight)*
+g:searchlight_disable_on_startup	searchlight.txt	/*g:searchlight_disable_on_startup*
+hl-Searchlight	searchlight.txt	/*hl-Searchlight*
+searchlight	searchlight.txt	/*searchlight*
+searchlight-author	searchlight.txt	/*searchlight-author*
+searchlight-commands	searchlight.txt	/*searchlight-commands*
+searchlight-customization	searchlight.txt	/*searchlight-customization*
+searchlight-issues	searchlight.txt	/*searchlight-issues*
+searchlight-update	searchlight.txt	/*searchlight-update*
+searchlight.txt	searchlight.txt	/*searchlight.txt*
