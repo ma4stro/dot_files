@@ -1,0 +1,35 @@
+pane	0	1	:MA	0	:#	1	:/home/luca	1	zsh	:
+pane	0	2	:hw4	0	:	1	:/home/luca/Scrivania/MA/homeworks/homework-04	1	zsh	:
+pane	0	3	:shared	0	:#	1	:/home/luca/Scrivania/windowsSharedDir	1	zsh	:
+pane	0	4	:python	0	:	1	:/home/luca/Scrivania/MA/homeworks/homework-04/script-utils	1	python	:python
+pane	0	4	:python	0	:	2	:/home/luca/Scrivania/MA/homeworks/homework-04/script-utils	0	nvim	:/tmp/.mount_nvimdcdLHF/usr/bin/nvim hex_utils.py
+pane	0	5	:nvim	0	:#	1	:/home/luca/Scrivania/MA/homeworks/homework-04/report/scripts	1	nvim	:/tmp/.mount_nvim11PNAQ/usr/bin/nvim generate_param_table.py
+pane	0	5	:nvim	0	:#	2	:/home/luca/Scrivania/MA/homeworks/homework-04/report/scripts	0	zsh	:
+pane	0	5	:nvim	0	:#	3	:/home/luca/Scrivania/MA/homeworks/homework-04/report/scripts	0	python	:python
+pane	0	6	:MSA	0	:-	1	:/home/luca/Scrivania/MSA	1	zsh	:
+pane	0	7	:ML	0	:	1	:/home/luca/Scrivania/ML	1	zsh	:
+pane	0	8	:PW	0	:	1	:/home/luca/Scrivania/PW	1	zsh	:
+pane	0	9	:VDSI	1	:*	1	:/home/luca/Scrivania/VDSI	1	zsh	:
+pane	1	1	:zsh	1	:*	1	:/home/luca/Scrivania/VDSI	0	nvim	:/tmp/.mount_nvim3bzZh2/usr/bin/nvim links
+pane	1	1	:zsh	1	:*	2	:/home/luca/Scrivania/VDSI	1	zsh	:
+pane	11	1	:zsh	1	:*	1	:/home/luca	1	zsh	:
+pane	13	1	:zsh	1	:*	1	:/home/luca	1	zsh	:
+pane	2	1	:zsh	1	:*	1	:/home/luca/Scrivania/VDSI	1	zsh	:
+pane	30	1	:zsh	1	:*	1	:/home/luca/Documenti	1	zsh	:
+pane	5	1	:zsh	1	:*	1	:/home/luca	1	zsh	:
+window	0	1	0	:#	c63d,151x37,0,0,0
+window	0	2	0	:	c645,151x37,0,0,8
+window	0	3	0	:#	c646,151x37,0,0,9
+window	0	4	0	:	1055,151x37,0,0{75x37,0,0,10,75x37,76,0,127}
+window	0	5	0	:#	4c94,151x37,0,0{75x37,0,0,77,75x37,76,0[75x18,76,0,80,75x18,76,19,81]}
+window	0	6	0	:-	b1de,151x37,0,0,107
+window	0	7	0	:	b1df,151x37,0,0,108
+window	0	8	0	:	b1e0,151x37,0,0,109
+window	0	9	1	:*	b1dd,151x37,0,0,125
+window	1	1	1	:*	3885,151x37,0,0[151x18,0,0,1,151x18,0,19,2]
+window	11	1	1	:*	db06,77x24,0,0,65
+window	13	1	1	:*	db09,77x24,0,0,68
+window	2	1	1	:*	c640,151x37,0,0,3
+window	30	1	1	:*	2ae3,80x22,0,0,132
+window	5	1	1	:*	d563,80x22,0,0,43
+state	0	2
