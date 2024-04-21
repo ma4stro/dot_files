@@ -1,4 +1,4 @@
-CONF_DIR=./configurations
+CONF_DIR=./dot_files
 BIN_DIR=$HOME/bin
 FONTS_DIR=$HOME/.fonts
 
