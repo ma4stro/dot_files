@@ -1,4 +1,4 @@
-CONF_DIR=./configurations
+CONF_DIR=./dot_files
 BIN_DIR=$HOME/bin
 PYTHON_FOLDER="python$(python -V | cut -d" " -f2 | awk -F"." '{print $1 "." $2 }')"
 FONTS_DIR=$HOME/.fonts
