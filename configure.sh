@@ -10,7 +10,7 @@ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt update
 # tmux >= 3.3a; zsh >= 5.9
-sudo apt satisfy "tmux (>= 3.3a) zsh (>= 5.9)" -y
+sudo apt satisfy "tmux (>= 3.3a), zsh (>= 5.9)" -y
 # following may fail:
 sudo apt satisfy "nvim (>= 0.10.0)" -y
 if (( $? != 0 )); then
