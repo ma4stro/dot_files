@@ -45,7 +45,7 @@ git clone https://github.com/Blacksuan19/init.nvim $HOME/.config/nvim
 # ----- moving dot.files and dot.folders -----
 cp -r $CONF_DIR/.* $HOME
 # set the correct position for init.vim
-cp $CONF_DIR/init.vim .config/nvim/init.vim
+cp $CONF_DIR/init.vim $HOME/.config/nvim/init.vim
 
 # now tmux: <prefix> I. This is the command that executes it and install tpm plugins:
 $HOME/.tmux/plugins/tpm/scripts/install_plugins.sh
