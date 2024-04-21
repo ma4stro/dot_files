@@ -1,4 +1,4 @@
-CONF_DIR=./dot_files
+CONF_DIR=`pwd`
 BIN_DIR=$HOME/bin
 FONTS_DIR=$HOME/.fonts
 
