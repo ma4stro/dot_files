@@ -19,7 +19,7 @@ if (( $? != 0 )); then
     sudo apt install $CONF_DIR/nvim-linux64.deb -y
 fi
 
-sudo apt install yarn nodejs npm clang ripgrep bat python3-pip git -y
+sudo apt install yarn nodejs npm clang ripgrep bat python3-pip git urlview -y
 
 # installing brew and adding to path
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
