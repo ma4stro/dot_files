@@ -100,6 +100,9 @@ source $ZSH/oh-my-zsh.sh
 # alias tmux to make 256 colors work:
 #alias tmux="TERM=xterm-256color tmux"
 
+
+# comment following line to prevent tmux start automatically
+#export TMUX_START="yes"
 # launch tmux automatically
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ] && [ ! -z "$TMUX_START" ]; then
   exec tmux
@@ -114,9 +117,10 @@ _fix_cursor() {
 
 precmd_functions+=(_fix_cursor)
 
-alias scrivania="cd ~/Scrivania"
+alias scrivania="cd ~/Desktop"
 alias maxtor="cd /media/luca/Maxtor/"
 alias pbcopy="xclip -sel clip"
+alias shared="cd /home/luca/Desktop/shared"
 
 
 
@@ -244,10 +248,6 @@ export TIME="real: %e\nuser: %U\nsys: %S"
 
 alias python="python3"
 #alias ls="ls --color=none"
-alias find="find 2>/dev/null"
-
-# comment following line to prevent tmux start automatically
-#export TMUX_START = "yes"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -259,7 +259,18 @@ export PATH=$PATH:/home/luca/android-studio/bin:$HOME/gradle-7.4/bin
 export SECLISTS=/snap/seclists/37
 
 export PATH=$PATH:/home/luca/go/bin
-export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 
 export EDITOR=`which nvim`
+# export TERM=xterm-256color
 
+export USRS=~/SecLists/Usernames
+export PASS=~/SecLists/Passwords
+export ROCKU=~/SecLists/Passwords/Leaked-Databases/rockyou.txt
+export ROCKU=~/SecLists/Passwords/Leaked-Databases/rockyou.txt
+export ROCKU75=~/SecLists/Passwords/Leaked-Databases/rockyou-75.txt
+export PUB_KEY_CMD='mkdir -p ~/.ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDGrvlOwDdNbmQLPbKjWQ9I3tkr8NhOudIU2+WkgPr+p8tTjpmG62I2vvB/bG4Tp4IvVnYi0a5D4s3IfGDF+EcJ7bh+M+DfKkOKdpFPFtny3kYoIlNA2X812v1Y9XvHKGRHiuALzuV5Uym/2gbK6otbeTaQ2IzpcUBXd8axu36DAwP6YjnBvnLL95AAva3L+9mq9xwPxwTxQkvTwl4HQqS5Ax09IUNrK7wL1c0yIMwuGjv24iYgAh3zjwPCwW/QhNo8o8/mmhfNk85W9JLjhZAnVf0Mbobl4YHNwaUiS7rsLfyeB55mQI8V6ZQSVPHhYE0QdeyQ+ndWcT7J99U3BABPKlclGC9He5M/2nOAmFeIuVXcJgWXLHqT8gCfVHCPnYLAO45mEat8czEDO3IQKWlCHim5aPO48hfhZ3PinktW9qcZ1rqvbtTd5nJsBl6Unl0IP8zyPGeTSia3I7O+/sETAfJIVMkbeszVymCbNvgxlBVopFId+ghh4EOdi5t2VEM= challenger@kali" >> ~/.ssh/authorized_keys'
+
+export FULL_TTY_CMD="python3 -c 'import pty; pty.spawn(\"/bin/bash\")'"
+export ALIASES="alias l='ls -la' && alias find='find 2>/dev/null'"
+
+export TARGET=10.10.4.37
