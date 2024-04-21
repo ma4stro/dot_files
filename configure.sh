@@ -26,6 +26,7 @@ PYTHON_FOLDER="python$(python -V | cut -d" " -f2 | awk -F"." '{print $1 "." $2 }
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 cd $BIN_DIR
 ln -s /home/linuxbrew/.linuxbrew/bin/brew
+export PATH=$PATH:$HOME/bin
 
 # remove externally managed python system. Needed to install packages with pip3
 sudo mv /usr/lib/$PYTHON_FOLDER/EXTERNALLY-MANAGED /usr/lib/$PYTHON_FOLDER/EXTERNALLY-MANAGED.old
