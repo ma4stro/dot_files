@@ -1,6 +1,5 @@
 CONF_DIR=./configurations
 BIN_DIR=$HOME/bin
-PYTHON_FOLDER="python$(python -V | cut -d" " -f2 | awk -F"." '{print $1 "." $2 }')"
 FONTS_DIR=$HOME/.fonts
 
 mkdir $BIN_DIR
@@ -19,7 +18,9 @@ if (( $? != 0 )); then
     sudo apt install $CONF_DIR/nvim-linux64.deb -y
 fi
 
-sudo apt install yarn nodejs npm clang ripgrep bat python3-pip git urlview -y
+sudo apt install yarn nodejs npm clang ripgrep bat python3 python3-pip git urlview -y
+
+PYTHON_FOLDER="python$(python -V | cut -d" " -f2 | awk -F"." '{print $1 "." $2 }')"
 
 # installing brew and adding to path
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
