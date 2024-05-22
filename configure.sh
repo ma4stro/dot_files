@@ -40,7 +40,7 @@ git clone https://github.com/ohmyzsh/ohmyzsh $HOME/.oh-my-zsh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 git clone https://github.com/gpakosz/.tmux $HOME/.tmux
 git clone https://github.com/tmux-plugins/tpm $HOME/.tmux/plugins/tpm
-git clone https://github.com/Blacksuan19/init.nvim $HOME/.config/nvim
+git clone https://github.com/ma4stro/init.nvim $HOME/.config/nvim
 
 # ----- moving dot.files and dot.folders -----
 cp -r $CONF_DIR/.* $HOME
