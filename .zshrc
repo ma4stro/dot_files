@@ -5,7 +5,8 @@ export ZSH=$HOME/.oh-my-zsh
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-#ZSH_THEME="smt"
+# alternative themes for remote machines
+#ZSH_THEME="alanpeabody"
 ZSH_THEME="af-magic"
 
 # Set list of themes to pick from when loading at random
@@ -243,7 +244,6 @@ ZSH_HIGHLIGHT_STYLES[arg0]=fg=#87ceeb,bold
 # run -s -a after each cd
 cd() { builtin cd "$@" && ls -a; }
 
-alias vim="nvim"
 export TIME="real: %e\nuser: %U\nsys: %S"
 
 alias python="python3"
@@ -272,5 +272,6 @@ export ROCKU75=~/SecLists/Passwords/Leaked-Databases/rockyou-75.txt
 export FULL_TTY_CMD="python3 -c 'import pty; pty.spawn(\"/bin/bash\")'"
 alias l='ls -lah'
 alias find='find 2>/dev/null'
+alias vim="nvim"
 
 export TARGET=10.10.4.37
