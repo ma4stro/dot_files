@@ -42,6 +42,9 @@ git clone https://github.com/gpakosz/.tmux $HOME/.tmux
 git clone https://github.com/tmux-plugins/tpm $HOME/.tmux/plugins/tpm
 git clone https://github.com/ma4stro/init.nvim $HOME/.config/nvim
 
+# updating alanpeabody theme:
+cp $CONF_DIR/alanpeabody.zsh-theme $HOME/.oh-my-zsh/themes
+
 # ----- moving dot.files and dot.folders -----
 cp -r $CONF_DIR/.* $HOME
 # set the correct position for init.vim
